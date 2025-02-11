@@ -17,14 +17,6 @@ main, body {
     
 }
 
-.a-name{
-    border-radius: 100%;
-    height: 10vh;
-    top: 43vh;
-    margin-left:55vw;
-    position: absolute;
-}
-
 .world > img{
 
     width: auto;
@@ -38,6 +30,14 @@ main, body {
 #welcome-section{
    
     justify-content: space-around;
+}
+
+.a-name{
+    border-radius: 100%;
+    height: 10vh;
+    top: 43vh;
+    margin-left:55vw;
+    position: absolute;
 }
 
 .name{
