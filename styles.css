@@ -257,7 +257,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-    /* General adjustments for smaller screens */
+   
     body {
         font-size: 14px;
         padding: 10px;
