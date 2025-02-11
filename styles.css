@@ -255,3 +255,71 @@ footer {
         gap: 15px;
     }
 }
+
+@media (max-width: 600px) {
+    /* General adjustments for smaller screens */
+    body {
+        font-size: 14px;
+        padding: 10px;
+        margin-top: -10px;
+    }
+
+    .logo-name
+    {
+        display: none;
+    }
+
+    .name {
+        font-size: max(6vh,30px);
+        margin-left: 10vw;
+        top: 25vh;
+        background-color: black;
+        padding: 5px;
+        border-radius: 12px;
+    }
+
+    .s-name {
+        font-size: max(4vh,24px);
+        margin-left: 5vw;
+        top: 35vh;
+        background-color: black;
+        padding: 5px;
+        border-radius: 12px;
+    }
+
+    #studies {
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #studies > h1 {
+        font-size: 5vh;
+    }
+
+    #projects .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .p-container {
+        padding: 10px;
+    }
+
+    .img-container {
+        height: 150px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-container a {
+        font-size: 1rem;
+    }
+}
