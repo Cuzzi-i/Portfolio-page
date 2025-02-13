@@ -1,9 +1,9 @@
-:root{
+:root {
     user-select: none;
 }
 
-
-main, body {
+main,
+body {
     margin: 0;
     overflow-x: hidden;
     display: flex;
@@ -14,54 +14,50 @@ main, body {
     display: none;
 }
 
-.back-g > img {
+.back-g>img {
     position: absolute;
     z-index: -3;
     width: 100vw;
     height: 100vh;
-    
 }
 
-.world > img{
-
+.world>img {
     width: auto;
     height: 100vw;
     margin-left: min(-50vh, -500px);
     min-height: 100vh;
     max-height: 1000px;
-
 }
 
-#welcome-section{
-   
+#welcome-section {
     justify-content: space-around;
 }
 
-.logo-name{
+.logo-name {
     border-radius: 100%;
     height: 10vh;
     top: 43vh;
-    margin-left:55vw;
+    margin-left: 55vw;
     position: absolute;
 }
 
-.name{
+.name {
     z-index: 10;
-    position: absolute; 
+    position: absolute;
     margin-left: 65vw;
     top: 35vh;
     color: white;
-    font-family:"Medula One", serif;
+    font-family: "Medula One", serif;
     font-size: 10vh;
 }
 
-.s-name{
+.s-name {
     top: 50vh;
     z-index: 10;
-    position: absolute; 
+    position: absolute;
     margin-left: 61vw;
     color: white;
-    font-family:"Medula One", serif;
+    font-family: "Medula One", serif;
     font-size: 7vh;
 }
 
@@ -76,11 +72,9 @@ main, body {
     margin-left: 15vw;
     margin-right: 15vw;
     height: 80vh;
-
-
 }
 
-#studies > h1 {
+#studies>h1 {
     font-family: "Medula One", serif;
     font-size: 6vh;
     text-decoration: none;
@@ -113,7 +107,6 @@ main, body {
 
 #studies h4 {
     margin: 0;
-    
     font-size: 1.1rem;
     font-weight: 600;
 }
@@ -124,6 +117,7 @@ main, body {
     font-weight: 400;
     margin-left: 20px;
 }
+
 #projects {
     margin: 40px auto;
     font-family: "Poppins", sans-serif;
@@ -135,7 +129,6 @@ main, body {
     max-width: 900px;
 }
 
-
 #projects .s-title {
     font-size: 6vh;
     font-weight: 700;
@@ -145,14 +138,12 @@ main, body {
     margin-bottom: 20px;
 }
 
-
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
 }
-
 
 .p-container {
     background: white;
@@ -167,13 +158,11 @@ main, body {
     transform: scale(1.05);
 }
 
-
 .p-container a {
     text-decoration: none;
     color: inherit;
     display: block;
 }
-
 
 .img-container {
     width: 100%;
@@ -186,7 +175,7 @@ main, body {
     background: #ddd;
 }
 
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     right: 0;
@@ -199,14 +188,12 @@ main, body {
     border-radius: 8px;
 }
 
-
 legend {
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 10px;
     color: #333;
 }
-
 
 @media (max-width: 768px) {
     .projects-grid {
@@ -251,7 +238,7 @@ footer {
 }
 
 .github:hover {
-    background: #333; 
+    background: #333;
 }
 
 @media (max-width: 600px) {
@@ -262,68 +249,55 @@ footer {
 }
 
 @media (max-width: 600px) {
-   
     body {
         font-size: 14px;
         padding: 10px;
         margin-top: -10px;
     }
-
-    .logo-name
-    {
+    .logo-name {
         display: none;
     }
-
     .name {
-        font-size: max(6vh,30px);
+        font-size: max(6vh, 30px);
         margin-left: 10vw;
         top: 25vh;
         background-color: black;
         padding: 5px;
         border-radius: 12px;
     }
-
     .s-name {
-        font-size: max(4vh,24px);
+        font-size: max(4vh, 24px);
         margin-left: 5vw;
         top: 35vh;
         background-color: black;
         padding: 5px;
         border-radius: 12px;
     }
-
     #studies {
         width: 90%;
         margin: 10px;
         padding: 10px;
     }
-
-    #studies > h1 {
+    #studies>h1 {
         font-size: 5vh;
     }
-
     #projects .projects-grid {
         grid-template-columns: 1fr;
     }
-
     .p-container {
         padding: 10px;
     }
-
     .img-container {
         height: 150px;
     }
-
     footer {
         padding: 15px;
     }
-
     .footer-container {
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
-
     .footer-container a {
         font-size: 1rem;
     }
