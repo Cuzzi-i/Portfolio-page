@@ -145,6 +145,12 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .p-container {
     background: white;
     padding: 15px;
@@ -195,12 +201,6 @@ legend {
     color: #333;
 }
 
-@media (max-width: 768px) {
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 footer {
     background: #222;
     padding: 20px;
@@ -246,9 +246,6 @@ footer {
         flex-direction: column;
         gap: 15px;
     }
-}
-
-@media (max-width: 600px) {
     body {
         font-size: 14px;
         padding: 10px;
