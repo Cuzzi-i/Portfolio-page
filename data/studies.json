@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Ingenieria en informatica - UBA",
+    "date": "2023 - Actualidad",
+    "url": "",
+    "tags": ["JavaScript", "Html", "Css"]
+  },
+  {
+    "title": "Front End Development Libraries - FreeCodeCamp",
+    "date": "2024 - 2025",
+    "url": "https://www.freecodecamp.org/certification/Cuzzi-i/front-end-development-libraries",
+    "tags": ["React", "JavaScript", "Html", "Css", "Tailwind", "Bootstrap"]
+  },
+  {
+    "title": "JavaScript Algorithm and Data Structures Certification - FreeCodeCamp",
+    "date": "2024 - 2025",
+    "url": "https://www.freecodecamp.org/certification/Cuzzi-i/javascript-algorithms-and-data-structures-v8",
+    "tags": ["JavaScript", "Html", "Css", "API", "Tailwind"]
+  },
+  {
+    "title": "Web Developer - FreeCodeCamp",
+    "date": "2023 - 2025",
+    "url": "https://www.freecodecamp.org/certification/Cuzzi-i/responsive-web-design",
+    "tags": ["Html", "Css"]
+  },
+  {
+    "title": "Junior Web Developer - Argentina Programa",
+    "date": "2022 - 2023",
+    "url": "",
+    "tags": ["Html", "Css", "JavaScript"]
+  }
+]

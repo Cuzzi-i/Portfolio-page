@@ -13,61 +13,52 @@
 
     <link rel="icon" href="https://avatars.githubusercontent.com/u/119081132?v=4" type="image/icon type">
 
+
+    <script src="js/data-loader.js" defer></script>
+
 </head>
 
 <body>
-    <div class="back-g">
-        <img src="pexels-felixmittermeier-957061.jpg">
-    </div>
-    <section id="welcome-section">
-
-        <div class="world">
-            <img alt="foto del planeta tierra" src="earth.png">
+    <section class="profile-section">
+        <div class="profile-card">
+            <img src="https://avatars.githubusercontent.com/u/119081132?v=4" alt="Foto de perfil" class="profile-pic">
+            <h2 class="profile-name">Ramiro Boccuzzi</h2>
+            <span class="status-dot"></span>
+            <p class="status-text">En busca de empleo</p>
         </div>
-        <div class="welcome">
-            <img class="logo-name" src="https://avatars.githubusercontent.com/u/119081132?v=4">
-            <h1 class="name">CUZZI</h1>
-            <h3 class="s-name">Estudiante de ingenieria en informatica - Programador</h3>
+    
+        <div class="about-card">
+            <div class="about-header">About me</div>
+            <p class="about-text">Soy Ramiro, estudiante de Ingenieria en Informatica en la UBA, tengo experiencia en tecnologias de desarrollo web como <span style="color: rgb(192, 110, 16);"> Html, CSS, JavaScript, React y Angular</span>.</p>
+            <div class="social-links">
+                <a href="https://github.com/Cuzzi-i" class="social-link github" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/boccuzziramiroa/" class="social-link linkedin"target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                </a>
+                <!-- 
+                <a href="#" class="social-link" target="_blank"></a>
+                <a href="#" class="social-link" target="_blank"></a>
+                <a href="#" class="social-link" target="_blank"></a>
+                -->
+            </div>
+        </div>
+        <div class="scroll-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40">
+                <path fill="white" d="M12 17.414l-6.707-6.707 1.414-1.414L12 14.586l5.293-5.293 1.414 1.414z"/>
+            </svg>
         </div>
     </section>
     <section id="studies">
         <h1 class="s-title"> Estudios </h1>
         <ul>
-            <!-- For Adding more items! -->
-            <!-- <li class="item"> <h4>1 - 1</h4> <h4 class="s-date">1 - 1</h4></li> -->
-            <li class="item">
-                <h4>Ingenieria en informatica - UBA</h4>
-                <h4 class="s-date">2023 - Actualidad</h4>
-            </li>
-            <li class="item">
-                <h4>JavaScript Algorithm and Data Structures Certification - FreeCodeCamp</h4>
-                <h4 class="s-date">2025 - Actualidad</h4>
-            </li>
-            <li class="item">
-                <a href="https://www.freecodecamp.org/certification/Cuzzi-i/responsive-web-design" target="_blank">
-                    <h4>Web Developer - FreeCodeCamp</h4>
-                </a>
-                <h4 class="s-date">2023 - 2025</h4>
-            </li>
-            <li class="item">
-                <h4>Junior Web Developer - Argentina Programa</h4>
-                <h4 class="s-date">2022 - 2023</h4>
-            </li>
-
         </ul>
     </section>
     <!-- Saca el hidden cuando tengas tu primer laburo ;C-->
     <section id="studies" class="hidden">
         <h1 class="s-title"> Experiencia Laboral </h1>
         <ul>
-
-            <!-- For Adding more items! -->
-            <!-- <li class="item"> <h4>1 - 1</h4> <h4 class="s-date">1 - 1</h4></li> -->
-
-            <li class="item">
-                <h4>1 - 1</h4>
-                <h4 class="s-date"> 1 - 1</h4>
-            </li>
         </ul>
 
 
@@ -75,76 +66,17 @@
     <section id="projects">
         <h1 class="s-title"> Proyectos </h1>
         <div class="projects-grid">
-            <div class="p-container">
-                <a href="/survey-form/" target="_blank">
-                    <div class="img-container">
-                        <img src="survey-demo.png" alt="Survey Form Demo">
-                    </div>
-                    <legend>Survey Form Demo</legend>
-                </a>
-            </div>
-
-            <div class="p-container project-tile">
-                <a href="/landing-page/" target="_blank">
-                    <div class="img-container">
-                        <img src="land-page.png" alt="Landing Page">
-                    </div>
-                    <legend>Landing Page</legend>
-                </a>
-            </div>
-
-            <div class="p-container">
-                <a href="/tecnical-documentation/" target="_blank">
-                    <div class="img-container">
-                        <img src="tec-doc.png" alt="Technical Documentation">
-                    </div>
-                    <legend>Technical Documentation</legend>
-                </a>
-            </div>
-
-            <div class="p-container">
-                <a href="/rpg-js/" target="_blank">
-                    <div class="img-container">
-                        <img src="rpg-game.png" alt="juego RPG">
-                    </div>
-                    <legend>Text RPG in JavaScript</legend>
-                </a>
-            </div>
-            <div class="p-container">
-                <a href="/palindrome-checker/" target="_blank">
-                    <div class="img-container">
-                        <img src="palindrome-checker.png" alt="Palindrome Checker">
-                    </div>
-                    <legend>Palindrome Checker in JS</legend>
-                </a>
-            </div>
-            <!--    Copiar y acomodar por cada proyecto!
-            <div class="p-container">
-                <a href="#" target="_blank">
-                    <div class="img-container">
-                        <img src="rpg-game.png" alt="juego RPG">
-                    </div>
-                    <legend>Blank</legend>
-                </a>
-            </div> -->
         </div>
     </section>
     <navbar class="hidden navbar" id="navbar">
         <a href="#projects"></a>
     </navbar>
 
+<script src="js/slow-scroll.js"></script>
+
 
 
 </body>
-<footer>
-    <div class="footer-container">
-        <a href="https://www.linkedin.com/in/boccuzziramiroa/" class="linkedin" id="profile-link" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"> LinkedIn
-        </a>
-        <a href="https://github.com/Cuzzi-i" class="github" id="profile-link" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"> GitHub
-        </a>
-    </div>
-</footer>
+
 
 </html>

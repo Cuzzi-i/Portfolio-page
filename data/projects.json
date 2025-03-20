@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Landing Page",
+    "image": "land-page.png",
+    "url": "/landing-page/",
+    "tags": ["Html", "Tailwind"]
+  },
+  {
+    "title": "Text RPG in JavaScript",
+    "image": "rpg-game.png",
+    "url": "/rpg-js/",
+    "tags": ["Html","Css","JavaScript"]
+  },
+  {
+    "title": "Palindrome Checker in JS",
+    "image": "palindrome-checker.png",
+    "url": "/palindrome-checker/",
+    "tags": ["Html","Css","JavaScript"]
+  },
+  {
+    "title": "React Drum Machine",
+    "image": "drum-machine.png",
+    "url": "https://codepen.io/Cuzzi-i/full/ogNEeer",
+    "tags": ["React", "Html", "JavaScript", "Bootstrap"]
+  },
+  {
+    "title": "25+5 Clock",
+    "image": "25+5-clock.png",
+    "url": "https://codepen.io/Cuzzi-i/full/emYVNgq",
+    "tags": ["React", "JavaScript"]
+  },
+  {
+    "title": "Pokedex",
+    "image": "pokedex.png",
+    "url": "/pokedex/",
+    "tags": ["Tailwind","Html","JavaScript", "API"]
+  }
+]

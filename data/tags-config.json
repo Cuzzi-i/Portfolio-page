@@ -1,0 +1,39 @@
+{
+  "tags": [
+    {
+      "name": "Html",
+      "bgColor": "#E34F26",
+      "textColor": "#ffffff"
+    },
+    {
+      "name": "Css",
+      "bgColor": "#1572B6",
+      "textColor": "#ffffff"
+    },
+    {
+      "name": "Tailwind",
+      "bgColor": "#38B2AC",
+      "textColor": "#ffffff"
+    },
+    {
+      "name": "React",
+      "bgColor": "#61DAFB",
+      "textColor": "#000000"
+    },
+    {
+      "name": "JavaScript",
+      "bgColor": "#F7DF1E",
+      "textColor": "#000000"
+    },
+    {
+      "name": "API",
+      "bgColor": "#4CAF50",
+      "textColor": "#ffffff"
+    },
+    {
+      "name": "Bootstrap",
+      "bgColor": "#AFA84C",
+      "textColor": "#000000"
+    }
+  ]
+}
